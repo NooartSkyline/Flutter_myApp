@@ -85,6 +85,7 @@ class _HomgePageState extends State<HomgePage> {
     Food("หมาย่าง", "560", "assets/images/netfix.jpg"),
     Food("หมาย่าง", "560", "assets/images/netfix.jpg"),
     Food("หมาย่าง", "560", "assets/images/netfix.jpg"),
+    Food("หมาย่าง", "98009", "assets/images/netfix.jpg"),
   ];
 
   //เรียกใช้งานก่อน build
@@ -155,7 +156,6 @@ class _HomgePageState extends State<HomgePage> {
                       }),
                 );
 
-                floatingActionButton:
                 FloatingActionButton(
                   onPressed: () {
                     Navigator.push(context,
